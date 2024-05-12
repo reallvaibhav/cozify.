@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .tiles {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .tile {
+            width: 350px;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+
+            .tile:hover {
+            width: 400px;
+            }
+        
+        .tile a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-indent: -9999px;
+        }
+        .button-container {
+            text-align: center;
+        }
+        .go-back-button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .go-back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Recommendations</h1>
+        <div class="tiles">
+            <div class="tile" style="background-image: url('top10tips.png');"><a href="https://www.youtube.com/watch?v=-OAjfrhuwRk&pp=ygUSbWVudGFsIGhlYWx0aCB0aXBz" target="_blank">Top 10 tips for your mental health</a></div>
+            <div class="tile" style="background-image: url('books.png');"><a href="https://www.youtube.com/watch?v=j-8TAgYimt8&pp=ygUdYmVzdCBib29rcyBmb3IgbWVudGFsIGhlYWx0aCA%3D" target="_blank">Video 2</a></div>
+            <div class="tile" style="background-image: url('asanas.png');"><a href="https://youtu.be/7DoQMnmo0v8" target="_blank">Yogasanas</a></div>
+            <div class="tile" style="background-image: url('med.png');"><a href="https://www.youtube.com/watch?v=U9YKY7fdwyg&pp=ygUSbWVkaXRhdGlvbnMgdmlkZW9z" target="_blank">Video 3</a></div>
+            <div class="tile" style="background-image: url('worse.png');"><a href="https://www.youtube.com/watch?v=j0_0O-FmLtc&pp=ygUrcmVjb21tZW5kZWQgdmlkZW9zIGZvciBiZXR0ZXIgbWVudGFsIGhlYWx0aA%3D%3D" target="_blank">Video 2</a></div>
+            <div class="tile" style="background-image: url('power.png');"><a href="https://www.youtube.com/watch?v=MaFv-SMgHb0&pp=ygUrcmVjb21tZW5kZWQgdmlkZW9zIGZvciBiZXR0ZXIgbWVudGFsIGhlYWx0aA%3D%3D" target="_blank">Video 3</a></div>
+            <div class="tile" style="background-image: url('deal.png');"><a href="https://www.youtube.com/watch?v=eAK14VoY7C0&pp=ygUdYmVzdCBib29rcyBmb3IgbWVudGFsIGhlYWx0aCA%3D" target="_blank">Video 3</a></div>
+            <div class="tile" style="background-image: url('diet.png');"><a href="https://www.youtube.com/watch?v=WphraaI_fd8&pp=ygUbYmVzdCBkaWV0IGZvciBtZW50YWwgaGVhbHRo" target="_blank">Video 2</a></div>
+            <div class="tile" style="background-image: url('diet2.png');"><a href="https://www.youtube.com/watch?v=qDykQJpxqZk&pp=ygUbYmVzdCBkaWV0IGZvciBtZW50YWwgaGVhbHRo" target="_blank">Video 3</a></div>
+            <div class="tile" style="background-image: url('good.png');"><a href="https://www.youtube.com/watch?v=twhWsik1pG0&pp=ygUfaG93IHRvIGxpdmUgbGlmZSB0byB0aGUgZnVsbGVzdA%3D%3D" target="_blank">Video 2</a></div>
+            <div class="tile" style="background-image: url('atomic.png');"><a href="https://www.youtube.com/watch?v=AOHT-YiOeQA&pp=ygUrcmVjb21tZW5kZWQgdmlkZW9zIGZvciBiZXR0ZXIgbWVudGFsIGhlYWx0aA%3D%3D" target="_blank">Video 3</a></div>
+            <div class="tile" style="background-image: url('yog.png');"><a href="https://www.youtube.com/watch?v=eUDTHzCw5YE&pp=ygUNcmVsYXhpbmcgeW9nYQ%3D%3D" target="_blank">Video 3</a></div>
+            <!-- Add more tiles as needed -->
+        </div>
+        <div class="button-container">
+            <a href="index.html" class="go-back-button">Go Back</a>
+        </div>
+    </div>
+</body>
+</html>
